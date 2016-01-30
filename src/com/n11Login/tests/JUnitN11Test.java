@@ -68,7 +68,7 @@ public class JUnitN11Test {
 	public void test4Favourites() throws InterruptedException {
 
 		Thread.sleep(1000);
-		ProjectUtil.getFileContent(driver, 2);
+		ProjectUtil.getFileContent(driver, 3);
 
 		Thread.sleep(1000);
 		driver.findElement(By.id("addToFavourites")).click();
